@@ -63,13 +63,12 @@ $$
 
 I found the tourism share across all quarters spanning from 2005 Q1 to 2024 Q4, then plotted it on a timeline plot to assess tourism's affect on the economy of Hawaii.
 
-%%html
-<iframe width="700" height="500" src="graphs/employment_share.html" frameborder="0"></iframe>
+![Tourism Employment Share](graphs/employment_share.png)
 
 Upon plotting my findings, I found that the Tourism Share stayed at a consistent 8-12% of the time. I then grew curious about how that compares to other industries. so I created a multi line plot of all other industries GDPs and how it compares to the tourism industry.
 
-%%html
-<iframe width="700" height="500" src="graphs/industry_gdp.html" frameborder="0"></iframe>
+![Industry GDP](graphs/industry_gdp.png)
+
 
 It can be seen that the tourism group makes up the third most of Hawaii's GDP.
 
@@ -85,8 +84,7 @@ To answer this question, I first defined the COVID-19 pandemic period as startin
 
 These metrics were filtered to include only statewide data to reflect Hawaii's overall economic trends. I merged together these datasets and visualized them in a multi-line plot with individual Y-axis scaling to show how they varied across different units.
 
-%%html
-<iframe width="700" height="500" src="graphs/tourism_employment_gdp_relationship.html" frameborder="0"></iframe>
+![Tourism, Employment, GDP](graphs/tourism_employment_gdp_relationship.png)
 
 Upon analyzing the graph, it could be seen that Visitor Arrivals saw a sharp decline in 2020 Q2, dropping dramatically from over 2 million to under 100,000 due to lockdowns and travel restrictions. Unemployment also surged during this time, with employment dropping to its lowest of 525k in 2020 Q2, reflecting the collapse in tourism-related jobs. Tourism-related GDP also declined during this period, though more gradually than arrivals, showing economic hardship in tourism-reliant sectors. As tourism began recovering in late 2020 and into 2021, improvements in both GDP and employment followed, though not immediately returning to pre-pandemic levels by 2022 Q1.
 
@@ -98,8 +96,7 @@ Residents often claim that tourists coming to Hawaii oftentimes inflates housing
 
 To answer this question on whether or not tourists inflate housing prices, I planned on using another dataset regarding median housing prices across certain counties of Hawaii, and visitor arrivals in Hawaii, then comparing these two datasets on a dual-axis time series line chart. The only downside to the dataset of median housing prices is that it only contained quarterly data for Honolulu and yearly data for Maui. Visitor arrivals are also only counted statewide, which in turn will mask the housing rates across the different islands. To address this issue, I decided to focus solely on housing prices in Honolulu inside my housing prices dataset. I justify this usage of comparing Honolulu's housing prices to housing prices as Oahu (considered Honolulu county) is one of the most visited islands throughout Hawaii, accounting for 52% of visitors across the state in 2024 alone (https://www.hawaii-guide.com/hawaii-tourism-statistics).
 
-%%html
-<iframe width="700" height="500" src="graphs/arrivals_housing.html" frameborder="0"></iframe>
+![Arrivals vs Housing](graphs/arrivals_housing.png)
 
 Analyzing the plot, it's observable that there exists a slight correlation between visitor arrivals and median housing price. Starting from 2005 Q2, it can be seen that the two variables follow the same trend, one increasing as the other increases. This correlation is lost when the pandemic hits in 2020 Q2 and tourism is restricted, where the median housing price rapidly increases. Then after tourism is opened up and visitors come to Hawaii, the Median Housing Price keeps correlation with visitor arrivals as well.
 
